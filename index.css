@@ -1,0 +1,90 @@
+
+#top{
+height: auto;
+width:100%;
+background-color: rgb(8, 178, 245);
+position:relative ;
+}
+#top>div:nth-child(1){
+    height: 50px;
+    width:60%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border: 0px;
+}
+#top>div:nth-child(4){
+    height:200px;
+    width:80%;
+    margin:10px auto;
+    display: flex;
+}
+#navbar{
+    height:80px;
+    width:100%;
+    display: flex;
+    position: sticky;
+    top:0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(0, 185, 247, 0.704);
+}
+#top>div:nth-child(4)>div{
+    height:200px;
+    width:24%;
+    margin:auto;
+    background-color: white;
+    border-radius: 10px;
+}
+button{
+    position: absolute;
+    top:40%;
+
+}
+#left{
+    left:9%;
+}
+#right{
+    right:9%;
+
+}
+#top img{
+    width:50px;
+}
+.score>div:nth-child(2),.score>div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    margin: -10px 5px;
+}
+.score p{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+#navbar>div:nth-child(1){
+width:12%;
+margin:auto 0px auto 10%;
+}
+#navbar img{
+    width:90%;
+}
+#navbar>div:nth-child(2){
+width:28%;
+margin:auto 5%;
+display: flex;
+font-style: bold;
+justify-content: space-around;
+}
+#navbar>div:nth-child(3){
+    width:30%;
+    margin:auto 1%;
+    display: flex;
+    justify-content: space-around;
+}
+#navbar>div>div{
+    width:10%;
+}
+#navbar img{
+    width:100%;
+    display: block;
+    margin-top:8%;
+}
