@@ -205,3 +205,29 @@ display: flex;
 #ll h3{
     margin:10px 10px;
 }
+#footer{
+    height:700px;
+    width:80%;
+    margin:-100px auto 100px auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+#footer>div{
+    height:98%;
+    width:auto;
+    margin: auto;
+}
+#footer h2,#footer p{
+    margin:25px
+}
+#end{
+    height:auto;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: whitesmoke;
+    margin-top: -4%;
+
+}
