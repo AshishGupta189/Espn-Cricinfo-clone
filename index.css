@@ -93,6 +93,7 @@ justify-content: space-around;
     height:400vh;
     width:100%;
     display: flex;
+    margin-top: 5%;
 }
 #mid>div:nth-child(1){
     width:17%;
@@ -168,10 +169,10 @@ display: flex;
     margin-top: 20px;
     padding: 5px 5px;
 }
-#ll>div:nth-child(1),#rr>div:nth-child(1){
+#ll>div:nth-child(1),#rr>div:nth-child(1),#ll>div{
     height:auto;
     width:96%;
-    margin:2% auto;
+    margin:10% auto;
     padding: 2px 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -181,4 +182,26 @@ display: flex;
 }
 #rr{
     margin-left: 2%;
+}
+.feed{
+    height:auto;
+    width:100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.feed p{
+    margin: -5px 10px;
+    padding: 10px;
+}
+#ll>div{
+    height:auto;
+    width:96%;
+    margin:10% auto;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#ll h3{
+    margin:10px 10px;
 }
