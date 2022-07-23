@@ -26,3 +26,10 @@ function counted(event){
     event.preventDefault();
     location.href="eng.html"
 }
+document.querySelector("#navbar>div:nth-child(1)>img").addEventListener("click",reload);
+
+function reload(event){
+    event.preventDefault();
+    console.log("hi")
+    location.href="top-homepage.html"
+}
